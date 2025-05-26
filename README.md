@@ -10,7 +10,7 @@ API REST para gerenciamento e consulta de leituras de sensores, desenvolvida com
 <br>
 
 <div align="center">
-  <a href="#Colaboradores">Colaboradores</a> •
+  <a href="#colaboradores">Colaboradores</a> •
   <a href="#funcionalidades">Funcionalidades</a> •
   <a href="#estrutura-do-projeto">Estrutura do Projeto</a> •
   <a href="#como-executar">Como executar</a> •
@@ -19,7 +19,7 @@ API REST para gerenciamento e consulta de leituras de sensores, desenvolvida com
 
 <br>
 
-## 🤝 Colaboradores
+<h2 id="colaboradores">🤝 Colaboradores</h2>
 
 | Nome                              | RM       |
 |-----------------------------------|----------|
@@ -30,7 +30,7 @@ API REST para gerenciamento e consulta de leituras de sensores, desenvolvida com
 | Sofia Barbosa de Souza            | RM552298 |
 
 
-## ⚙️ Funcionalidades
+<h2 id="funcionalidades">⚙️ Funcionalidades</h2> 
 
 - Cadastro de leituras de sensores (POST <code>/api/readings</code>)
 - Listagem de todas as leituras (GET <code>/api/readings</code>)
@@ -38,7 +38,7 @@ API REST para gerenciamento e consulta de leituras de sensores, desenvolvida com
 
 <br>
 
-## 🗂️ Estrutura do Projeto
+<h2 id="estrutura-do-projeto">🗂️ Estrutura do Projeto</h2>
 
 ```plaintext
 src/
@@ -58,7 +58,7 @@ src/
 
 <br>
 
-## ▶️ Como executar
+<h2 id="como-executar">▶️ Como executar</h2>
 
 1. **Pré-requisitos:** Java 21+ e Maven.
 2. **Build do projeto:**
@@ -75,7 +75,7 @@ src/
 
 <br>
 
-## 📚 Exemplos de uso
+<h2 id="exemplos-de-uso">📚 Exemplos de uso</h2>
 
 ### Criar uma leitura
 
