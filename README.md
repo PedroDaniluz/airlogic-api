@@ -60,18 +60,31 @@ src/
 
 <h2 id="como-executar">▶️ Como executar</h2>
 
-1. **Pré-requisitos:** Java 21+ e Maven.
-2. **Build do projeto:**
+1. **Pré-requisitos:** Java 21+, Maven, Alguma API Client como curl, Postman ou Insomnia.
+2. **Clone do Repositório**
+
+    ```bash
+    git clone https://github.com/pedrodaniluz/airlogic-api.git
+    cd airlogic-api
+    ```
+    
+3. **Build do projeto:**
 
    ```bash
    ./mvnw clean install
    ```
 
-3. **Executar a aplicação:**
+4. **Executar a aplicação:**
 
    ```bash
    ./mvnw spring-boot:run
    ```
+   
+A aplicação estará disponível em:
+
+```
+http://localhost:8080/api/readings
+```
 
 <br>
 
