@@ -60,7 +60,7 @@ src/
 
 <h2 id="como-executar">▶️ Como executar</h2>
 
-1. **Pré-requisitos:** Java 21+, Maven, Alguma API Client como curl, Postman ou Insomnia.
+1. **Pré-requisitos:** Java 21, Maven, Alguma API Client como curl, Postman ou Insomnia. (⚠️ Atenção: a API não é compatível com outras versões do Java)
 2. **Clone do Repositório**
 
     ```bash
