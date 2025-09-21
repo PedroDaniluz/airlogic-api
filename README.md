@@ -3,7 +3,7 @@
 
 # Air Logic API
 
-API REST para gerenciamento e consulta de leituras de sensores, desenvolvida com Spring Boot, JPA e banco de dados H2.
+API REST para gerenciamento e consulta de leituras de sensores, desenvolvida com Spring Boot, JPA e banco de dados H2. Backend para a aplicação mobile <a href="https://github.com/PedroDaniluz/airlogic">AirLogic</a>.
 
 </div>
 
@@ -46,6 +46,8 @@ src/
     java/
       com/fiap/airlogic/api/
         AirLogicApiApplication.java
+        config/
+          DataInitializer.java
         controller/
           ReadingController.java
         model/
@@ -86,6 +88,8 @@ A aplicação estará disponível em:
 http://localhost:8080/api/readings
 ```
 
+⚠️ Um DataInitializer é executado automaticamente ao subir a aplicação, populando o banco de dados H2 com exemplos de leituras de sensores para facilitar os testes.
+
 <br>
 
 <h2 id="exemplos-de-uso">📚 Exemplos de uso</h2>
@@ -97,9 +101,9 @@ POST /api/readings
 Content-Type: application/json
 
 {
-  "sensorId": "sensor-01",
-  "value": 23.5,
-  "timestamp": "2024-06-01T12:00:00"
+  "sensorId": "Compressor",
+  "value": 5.3,
+  "timestamp": "2024-09-21T12:00:00"
 }
 ```
 
